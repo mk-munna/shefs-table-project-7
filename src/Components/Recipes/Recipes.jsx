@@ -1,18 +1,13 @@
 
-import {  toast } from 'react-toastify';
-
-import 'react-toastify/dist/ReactToastify.css';
-
 import { useEffect } from "react";
 import { useState } from "react";
 import Recipe from "../Recipe/Recipe";
 import MarkAsCook from "../MarkAsCook/MarkAsCook";
 
 const Recipes = () => {
-    const notify = () => toast("Wow so easy !");
     const [recipes, setRecipes] = useState([]);
     useEffect(() => {
-        fetch('../../../public/Recipes.JSON')
+        fetch('https://raw.githubusercontent.com/mk-munna/api/main/recipes.json')
             .then(res => res.json())
             .then(data => setRecipes(data));
     }, []);
@@ -21,7 +16,7 @@ const Recipes = () => {
         if (!markedRecipes.some((markedRecipe) => markedRecipe.recipe_id === recipe.recipe_id)) {
             setMarkedRecipes([...markedRecipes, recipe]);
         } else {
-            notify()
+            alert("Already Exists")
         }
     }
     const updateWantToCook = (restRecipes) => {

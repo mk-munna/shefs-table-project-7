@@ -48,7 +48,7 @@ const Header = () => {
                     </div>
                 </nav>
 
-                <div className="p-6  rounded-3xl lg:mt-10 mt-6 bg-[url(images/banner.png)] lg:h-[550px]  bg-cover flex flex-col justify-center">
+                <div className="p-6  rounded-3xl lg:mt-10 mt-6 bg-[url('https://i.ibb.co/HPN4tJ9/banner.png')] lg:h-[550px]  bg-cover flex flex-col justify-center">
                     <p className="font-bold font2 text-3xl mt-10 lg:mt-0 lg:text-6xl text-center text-white lg:leading-[5rem] lg:px-20 ">Discover an exceptional cooking class tailored for you!</p>
                     <p className="mt-4 leading-7 font1 text-center lg:mt-6 lg:w-[691px]  mx-auto  text-white">Learn from expert chefs, explore diverse cuisines, and unleash your culinary creativity in a hands-on, personalized environment. Elevate your cooking skills now</p>
                     <div className="flex justify-center items-center mt-6">
