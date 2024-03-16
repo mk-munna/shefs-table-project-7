@@ -1,4 +1,5 @@
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { useEffect } from "react";
 import { useState } from "react";
 import Recipe from "../Recipe/Recipe";
@@ -16,7 +17,7 @@ const Recipes = () => {
         if (!markedRecipes.some((markedRecipe) => markedRecipe.recipe_id === recipe.recipe_id)) {
             setMarkedRecipes([...markedRecipes, recipe]);
         } else {
-            alert("Already Exists")
+            toast('❗ Already Exist');
         }
     }
     const updateWantToCook = (restRecipes) => {
@@ -47,6 +48,7 @@ const Recipes = () => {
                 <div>
                     <MarkAsCook markedRecipes={markedRecipes} updateWantToCook={updateWantToCook}></MarkAsCook>
                 </div>
+                <ToastContainer />
             </div>
         </div>
     );
