@@ -9,8 +9,8 @@
             "200 g basil leaves",
             "400 g mushroom"
         ],
-        "preparing_time": "30 min",
-        "calories": "320 calories",
+        "preparing_time": 30,
+        "calories": 320,
         "recipe_image": "https://i.ibb.co/zhDkgw0/pexels-thu-huynh-19106469.jpg"
     },
     {
@@ -24,8 +24,8 @@
             "2 cloves garlic",
             "1 L vegetable broth"
         ],
-        "preparing_time": "45 min",
-        "calories": "380 calories",
+        "preparing_time": 45,
+        "calories": 380,
         "recipe_image": "https://i.ibb.co/kSbznHt/pexels-jana-ohajdova-11190138.jpg"
     },
     {
@@ -38,8 +38,8 @@
             "50 g fresh basil leaves",
             "2 tbsp balsamic glaze"
         ],
-        "preparing_time": "15 min",
-        "calories": "180 calories",
+        "preparing_time": 15,
+        "calories": 180,
         "recipe_image": "https://i.ibb.co/zmcw26s/pexels-ella-olsson-1640770.jpg"
     },
     {
@@ -53,8 +53,8 @@
             "1 lemon",
             "100 ml heavy cream"
         ],
-        "preparing_time": "25 min",
-        "calories": "420 calories",
+        "preparing_time": 25,
+        "calories": 420,
         "recipe_image": "https://i.ibb.co/sHV0ynP/pexels-shameel-mukkath-17321011.jpg"
     },
     {
@@ -68,8 +68,8 @@
             "200 g cauliflower",
             "250 ml coconut milk"
         ],
-        "preparing_time": "40 min",
-        "calories": "280 calories",
+        "preparing_time": 40,
+        "calories": 280,
         "recipe_image": "https://i.ibb.co/rkh58MB/pexels-cats-coming-674574.jpg"
     },
     {
@@ -82,8 +82,8 @@
             "200 ml tomato sauce",
             "50 g fresh basil leaves"
         ],
-        "preparing_time": "20 min",
-        "calories": "350 calories",
+        "preparing_time": 20,
+        "calories": 350,
         "recipe_image": "https://i.ibb.co/RNhQ8YP/pexels-kampus-production-6605223.jpg"
     },
     {
@@ -97,8 +97,8 @@
             "1 egg",
             "100 g chocolate chips"
         ],
-        "preparing_time": "12 min",
-        "calories": "150 calories",
+        "preparing_time": 12,
+        "calories": 150,
         "recipe_image": "https://i.ibb.co/S51W0Yg/pexels-tina-nord-1775283.jpg"
     },
     {
@@ -112,8 +112,9 @@
             "150 g feta cheese",
             "2 tbsp olive oil"
         ],
-        "preparing_time": "15 min",
-        "calories": "220 calories",
+        "preparing_time": 15,
+        "calories": 220,
         "recipe_image": "https://i.ibb.co/0tMCjhY/pexels-chan-walrus-1059905.jpg"
     }
+    
 ]

@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <main className='max-w-6xl mt-4 mx-auto'>
+      <main className='max-w-7xl mt-4 mx-auto'>
           <Recipes></Recipes>
       </main>
     </>

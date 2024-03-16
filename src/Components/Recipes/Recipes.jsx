@@ -1,5 +1,7 @@
 
-// import PropTypes from 'prop-types';
+import {  toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
 
 import { useEffect } from "react";
 import { useState } from "react";
@@ -7,6 +9,7 @@ import Recipe from "../Recipe/Recipe";
 import MarkAsCook from "../MarkAsCook/MarkAsCook";
 
 const Recipes = () => {
+    const notify = () => toast("Wow so easy !");
     const [recipes, setRecipes] = useState([]);
     useEffect(() => {
         fetch('../../../public/Recipes.JSON')
@@ -17,9 +20,13 @@ const Recipes = () => {
     const handleAddToCart =(recipe)=> {
         if (!markedRecipes.some((markedRecipe) => markedRecipe.recipe_id === recipe.recipe_id)) {
             setMarkedRecipes([...markedRecipes, recipe]);
+        } else {
+            notify()
         }
     }
-
+    const updateWantToCook = (restRecipes) => {
+        setMarkedRecipes(restRecipes);
+    }
     return (
         <div className="mt-4 lg:mt-24">
             {/* Heading */}
@@ -32,7 +39,7 @@ const Recipes = () => {
                 </p>
             </div>
             {/* functional container */}
-            <div className="flex gap-6 justify-center">
+            <div className="flex flex-col lg:flex-row gap-6 justify-center">
                 <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
                     {
                         recipes.map(recipe => <Recipe
@@ -43,15 +50,11 @@ const Recipes = () => {
                     }
                 </div>
                 <div>
-                    <MarkAsCook markedRecipes={markedRecipes}></MarkAsCook>
+                    <MarkAsCook markedRecipes={markedRecipes} updateWantToCook={updateWantToCook}></MarkAsCook>
                 </div>
             </div>
         </div>
     );
 };
-
-// Recipes.propTypes = {
-    
-// };
 
 export default Recipes;
