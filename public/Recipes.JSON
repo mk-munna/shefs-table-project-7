@@ -1,0 +1,119 @@
+[
+    {
+        "recipe_id": 1,
+        "recipe_name": "Basil Chicken Stir Fry",
+        "short_description": "A flavorful stir fry with tender chicken, fresh basil, and savory mushrooms, perfect for a quick and satisfying meal.",
+        "ingredients": [
+            "550 g chicken",
+            "120 ml soy sauce",
+            "200 g basil leaves",
+            "400 g mushroom"
+        ],
+        "preparing_time": "30 min",
+        "calories": "320 calories",
+        "recipe_image": "https://i.ibb.co/zhDkgw0/pexels-thu-huynh-19106469.jpg"
+    },
+    {
+        "recipe_id": 2,
+        "recipe_name": "Mushroom Risotto",
+        "short_description": "Creamy and comforting risotto infused with earthy mushrooms, a delightful dish to savor on cozy evenings.",
+        "ingredients": [
+            "300 g Arborio rice",
+            "500 g mushrooms",
+            "1 onion",
+            "2 cloves garlic",
+            "1 L vegetable broth"
+        ],
+        "preparing_time": "45 min",
+        "calories": "380 calories",
+        "recipe_image": "https://i.ibb.co/kSbznHt/pexels-jana-ohajdova-11190138.jpg"
+    },
+    {
+        "recipe_id": 3,
+        "recipe_name": "Caprese Salad",
+        "short_description": "A refreshing salad showcasing the vibrant flavors of ripe tomatoes, creamy mozzarella, and fragrant basil leaves.",
+        "ingredients": [
+            "3 ripe tomatoes",
+            "200 g fresh mozzarella",
+            "50 g fresh basil leaves",
+            "2 tbsp balsamic glaze"
+        ],
+        "preparing_time": "15 min",
+        "calories": "180 calories",
+        "recipe_image": "https://i.ibb.co/zmcw26s/pexels-ella-olsson-1640770.jpg"
+    },
+    {
+        "recipe_id": 4,
+        "recipe_name": "Lemon Garlic Shrimp Pasta",
+        "short_description": "Zesty shrimp pasta tossed in a luscious lemon garlic sauce, a burst of freshness in every bite.",
+        "ingredients": [
+            "400 g shrimp",
+            "300 g linguine pasta",
+            "4 cloves garlic",
+            "1 lemon",
+            "100 ml heavy cream"
+        ],
+        "preparing_time": "25 min",
+        "calories": "420 calories",
+        "recipe_image": "https://i.ibb.co/sHV0ynP/pexels-shameel-mukkath-17321011.jpg"
+    },
+    {
+        "recipe_id": 5,
+        "recipe_name": "Vegetable Curry",
+        "short_description": "A fragrant and wholesome curry brimming with colorful vegetables and aromatic spices, a comforting meal for any occasion.",
+        "ingredients": [
+            "2 potatoes",
+            "2 carrots",
+            "1 onion",
+            "200 g cauliflower",
+            "250 ml coconut milk"
+        ],
+        "preparing_time": "40 min",
+        "calories": "280 calories",
+        "recipe_image": "https://i.ibb.co/rkh58MB/pexels-cats-coming-674574.jpg"
+    },
+    {
+        "recipe_id": 6,
+        "recipe_name": "Classic Margherita Pizza",
+        "short_description": "A timeless pizza topped with tangy tomato sauce, fresh mozzarella, and fragrant basil, a crowd-pleaser for pizza night.",
+        "ingredients": [
+            "300 g pizza dough",
+            "200 g fresh mozzarella",
+            "200 ml tomato sauce",
+            "50 g fresh basil leaves"
+        ],
+        "preparing_time": "20 min",
+        "calories": "350 calories",
+        "recipe_image": "https://i.ibb.co/RNhQ8YP/pexels-kampus-production-6605223.jpg"
+    },
+    {
+        "recipe_id": 7,
+        "recipe_name": "Chocolate Chip Cookies",
+        "short_description": "Indulgent cookies loaded with gooey chocolate chips, a sweet treat to satisfy your cravings.",
+        "ingredients": [
+            "200 g all-purpose flour",
+            "150 g butter",
+            "150 g brown sugar",
+            "1 egg",
+            "100 g chocolate chips"
+        ],
+        "preparing_time": "12 min",
+        "calories": "150 calories",
+        "recipe_image": "https://i.ibb.co/S51W0Yg/pexels-tina-nord-1775283.jpg"
+    },
+    {
+        "recipe_id": 8,
+        "recipe_name": "Greek Salad",
+        "short_description": "A vibrant salad bursting with the flavors of crisp cucumbers, juicy tomatoes, tangy olives, and creamy feta cheese.",
+        "ingredients": [
+            "2 cucumbers",
+            "3 tomatoes",
+            "100 g Kalamata olives",
+            "150 g feta cheese",
+            "2 tbsp olive oil"
+        ],
+        "preparing_time": "15 min",
+        "calories": "220 calories",
+        "recipe_image": "https://i.ibb.co/0tMCjhY/pexels-chan-walrus-1059905.jpg"
+    }
+]

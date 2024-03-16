@@ -1,12 +1,16 @@
-import { useState } from 'react'
+
+import Header from './Components/Header/Header'
+import Recipes from './Components/Recipes/Recipes'
 import './index.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <button class="btn btn-secondary">Secondary</button>
+      <Header></Header>
+      <main className='max-w-6xl mt-4 mx-auto'>
+          <Recipes></Recipes>
+      </main>
     </>
   )
 }
