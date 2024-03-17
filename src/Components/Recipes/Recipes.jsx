@@ -16,7 +16,8 @@ const Recipes = () => {
     const handleAddToCart =(recipe)=> {
         if (!markedRecipes.some((markedRecipe) => markedRecipe.recipe_id === recipe.recipe_id)) {
             setMarkedRecipes([...markedRecipes, recipe]);
-        } else {
+        }
+        else {
             toast('❗ Already Exist');
         }
     }

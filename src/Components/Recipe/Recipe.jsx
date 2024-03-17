@@ -26,9 +26,9 @@ const Recipe = ({ recipe, handleAddToCart }) => {
                     </div>
                     <div className='text-sm flex item-center gap-3 mt-3'>
                         <CiTimer />
-                        <span className='-mt-[2px]'>{recipe.preparing_time} min</span>
+                        <span className='-mt-[2px] -ml-1'>{recipe.preparing_time} min</span>
                         <AiOutlineFire />
-                        <span className='-mt-[2px]'>{recipe.calories} calories</span>
+                        <span className='-mt-[2px] -ml-2'>{recipe.calories} calories</span>
                     </div>
                     <button onClick={() => {handleAddToCart(recipe)}} className='btn bg-[#0BE58A] hover:bg-[#35d190]'>Want to Cook</button>
                 </div>

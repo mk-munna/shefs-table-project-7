@@ -52,7 +52,7 @@ const MarkAsCook = ({ markedRecipes, updateWantToCook }) => {
                                         <td>{recipe.recipe_name}</td>
                                         <td className='text-[12px]'>{recipe.preparing_time} min</td>
                                         <td className='text-[12px]'>{recipe.calories} Calories</td>
-                                        <td><button onClick={()=>handleAddToCooking(recipe)} className='bg-[#0BE58A] px-4 py-1 rounded-full'>Preparing</button></td>
+                                        <td><button onClick={()=>handleAddToCooking(recipe)} className='bg-[#0BE58A] px-4 py-1 rounded-full'>Prepare</button></td>
                                     </tr>
                                 )
                             })

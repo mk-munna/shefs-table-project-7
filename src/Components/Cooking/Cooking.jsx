@@ -1,6 +1,5 @@
 
 import PropTypes from 'prop-types';
-import Recipe from '../Recipe/Recipe';
 
 const Cooking = ({ cookingRecipes }) => {
     // console.log(cookingRecipes.reduce((recipes, recipe) => recipes + recipe));
