@@ -40,7 +40,7 @@ const Recipe = ({ recipe, handleAddToCart, loadingRecipe }) => {
                         </div>
                     </div>
                 ) : (
-                    <div className="card  bg-base-100 shadow-xl p-4 h-[560px] w-[320px]">
+                    <div className="card mx-auto  bg-base-100 shadow-xl p-4 h-[560px] w-[320px]">
                         <figure><img src={recipe.recipe_image} alt="Shoes" /></figure>
                         <div className="card-body p-4">
                             <h2 className="text-xl ">{recipe.recipe_name}</h2>
